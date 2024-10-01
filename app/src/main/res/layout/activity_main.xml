@@ -63,6 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/md"
                 android:layout_weight="1"
+                android:id="@+id/cvLaundry"
                 app:cardCornerRadius="@dimen/lg">
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -89,6 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/md"
                 android:layout_weight="1"
+                android:id="@+id/cvLayanan"
                 app:cardCornerRadius="@dimen/lg">
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -121,6 +123,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/md"
                 android:layout_weight="1"
+                android:id="@+id/cvPelanggan"
                 app:cardCornerRadius="@dimen/lg">
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -147,6 +150,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/md"
                 android:layout_weight="1"
+                android:id="@+id/cvPromo"
                 app:cardCornerRadius="@dimen/lg">
                 <LinearLayout
                     android:layout_width="wrap_content"

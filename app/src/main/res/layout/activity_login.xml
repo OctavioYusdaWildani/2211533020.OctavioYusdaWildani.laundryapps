@@ -28,6 +28,7 @@
         android:layout_margin="@dimen/lg"
         android:orientation="vertical">
     <EditText
+        android:id="@+id/edUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/ic_username"
@@ -35,6 +36,8 @@
         android:hint="Username"
         android:padding="@dimen/lg" />
     <EditText
+        android:id="@+id/edPassword"
+        android:inputType="numberPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/sm"
@@ -43,6 +46,7 @@
         android:hint="Password"
         android:padding="@dimen/lg" />
     <Button
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/lg"
